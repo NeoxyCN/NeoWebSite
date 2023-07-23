@@ -1,0 +1,22 @@
+<?php
+//网页配置
+//防止网页乱码
+header('content-type:text/html;charset=utf-8');
+$website_name="Neoxy's World";
+//网页名称
+$website_version="0.0.0.1";
+//警告：此项请勿随意修改,否则会导致无法更新
+//网站版本
+$website_upda="127.0.0.1";
+//警告：此项请勿随意修改,否则会导致无法更新
+//更新地址（暂不可用）
+//数据库配置
+$db_host="localhost";
+$db_user="root";
+$db_psw="123456";
+$db_port="3306";
+$db_userdb="userdb";
+$db_forumdb="forumdb";
+$db_zonedb="forumdb";
+$db_main="neoxydb";
+?>
